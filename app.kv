@@ -1,0 +1,98 @@
+BoxLayout:
+    id: mainBox
+    Popup:
+        id: popup
+        size_hint: (1, 1)
+        title: "ItemHire"
+        on_parent:
+            if self.parent == mainBox: self.parent.remove_widget(self)
+        BoxLayout:
+            id: inputs
+            orientation: 'vertical'
+            Label:
+                text: 'Item Name: '
+                size_hint_y: None
+                height: '48dp'
+            TextInput:
+                id: AddName
+                value: ''
+                size_hint_y: None
+                height: '48dp'
+                multiline: False
+                write_tab: False
+
+            Label:
+                text: 'Description: '
+                size_hint_y: None
+                height: '48dp'
+            TextInput:
+                id: AddDescription
+                value: ''
+                size_hint_y: None
+                height: '48dp'
+                multiline: False
+                write_tab: False
+            Label:
+                text: 'Price Per Day: '
+                size_hint_y: None
+                height: '48dp'
+            TextInput:
+                id: AddPrice
+                value: ''
+                size_hint_y: None
+                height: '48dp'
+                multiline: False
+                write_tab: False
+
+            Button:
+                text: 'Save Item'
+                on_press: app.press_save(AddName.text, AddDescription.text, AddPrice.text)
+            Button:
+                text: 'Cancel'
+                on_release: app.press_cancel()
+            Label:
+                text: app.status_text
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            orientation: 'horizontal'
+            BoxLayout:
+                orientation: 'vertical'
+                size_hint_x: 0.3
+                Button:
+                    id: ListItem
+                    text:'List Items'
+                    on_release: app.press_button()
+                    state: 'down'
+                Button:
+                    id: HireItem
+                    text:'Hire Items'
+                    on_release: app.press_hire()
+                    state: 'normal'
+
+                Button:
+                    id: ReturnItem
+                    text:'Return Items'
+                    on_release: app.press_return()
+                    state: 'normal'
+
+
+                Button:
+                    id: Confirm
+                    text:'Confirm'
+                    on_press: app.press_confirm()
+
+                Button:
+                    id: AddNewItem
+                    text: 'Add New Item'
+                    on_release: app.press_add()
+
+            GridLayout:
+                id: entriesBox
+                cols: 2
+                orientation: 'vertical'
+                #on_press: app.hire_something()
+        Label:
+            id: statusLabel
+            size_hint_y: 0.1
+            text: app.status_text
