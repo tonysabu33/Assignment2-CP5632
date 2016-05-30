@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="211e162c-22c3-4e07-ace9-775fba97a0ee" name="Default" comment="The code for Assignment2- GUI. &#10;I have made a repository when I started coding this. But I don't know it was not committing to the repository. So today, I created a new repository and copied my codes to this from my old one.">
+    <list default="true" id="211e162c-22c3-4e07-ace9-775fba97a0ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.kv" afterPath="$PROJECT_DIR$/app.kv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itemlist.py" afterPath="$PROJECT_DIR$/itemlist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items.csv" afterPath="$PROJECT_DIR$/items.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="Assignment2-CP5632.iws" />
@@ -19,8 +18,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Assignment2-CP5632$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1464570986953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/assignment2" />
-    <SUITE FILE_PATH="coverage/Assignment2-CP5632$main.coverage" NAME="main Coverage Results" MODIFIED="1464572042768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Assignment2-CP5632$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1464573917780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/assignment2" />
+    <SUITE FILE_PATH="coverage/Assignment2-CP5632$main.coverage" NAME="main Coverage Results" MODIFIED="1464574281202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,8 +42,8 @@
             <file leaf-file-name="app.kv" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/Desktop/assignment2/app.kv">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="0">
-                    <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <state relative-caret-position="-418">
+                    <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
                     <folding />
                   </state>
                 </provider>
@@ -53,8 +52,8 @@
             <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
               <entry file="file://$USER_HOME$/Desktop/assignment2/main.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="357">
-                    <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+                  <state relative-caret-position="289">
+                    <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
                     <folding>
                       <element signature="e#214#238#0" expanded="true" />
                     </folding>
@@ -65,7 +64,7 @@
             <file leaf-file-name="itemlist.py" pinned="false" current-in-tab="false">
               <entry file="file://$USER_HOME$/Desktop/assignment2/itemlist.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="602">
+                  <state relative-caret-position="680">
                     <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
                     <folding />
                   </state>
@@ -86,8 +85,8 @@
       <file leaf-file-name="TonySabuA1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="410">
+              <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +95,8 @@
       <file leaf-file-name="items.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,14 +107,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1464570886189" expanded="true" signature="39:861" placeholder="..." />
-                <marker date="1464570886189" expanded="true" signature="111:150" placeholder="..." />
-                <marker date="1464570886189" expanded="true" signature="178:457" placeholder="..." />
-                <marker date="1464570886189" expanded="true" signature="516:583" placeholder="..." />
-                <marker date="1464570886189" expanded="true" signature="624:735" placeholder="..." />
-                <marker date="1464570886189" expanded="true" signature="766:861" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +115,8 @@
       <file leaf-file-name="app.kv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -133,8 +125,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -162,6 +154,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="Assignment2" target-branch="GUI" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -170,6 +165,7 @@
         <option value="$USER_HOME$/Desktop/assignment2/app.kv" />
         <option value="$PROJECT_DIR$/itemlist.py" />
         <option value="$PROJECT_DIR$/app.kv" />
+        <option value="$PROJECT_DIR$/items.csv" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -508,6 +504,14 @@
       <option name="presentableId" value="Default" />
       <updated>1464529383633</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit with new functions in itemlist.py.">
+      <created>1464572315694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464572315694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +524,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07528642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101472996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -547,7 +551,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The code for Assignment2- GUI. &#10;I have made a repository when I started coding this. But I don't know it was not committing to the repository. So today, I created a new repository and copied my codes to this from my old one." />
-    <option name="LAST_COMMIT_MESSAGE" value="The code for Assignment2- GUI. &#10;I have made a repository when I started coding this. But I don't know it was not committing to the repository. So today, I created a new repository and copied my codes to this from my old one." />
+    <MESSAGE value="Second commit with new functions in itemlist.py." />
+    <MESSAGE value="Third Commit with corrected save function for adding new item to the list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit with corrected save function for adding new item to the list." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -574,14 +580,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1464570886189" expanded="true" signature="39:861" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="111:150" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="178:457" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="516:583" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="624:735" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="766:861" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,14 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1464570886189" expanded="true" signature="39:861" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="111:150" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="178:457" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="516:583" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="624:735" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="766:861" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,10 +660,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
+    <entry file="file://$PROJECT_DIR$/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/assignment2/app.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -684,18 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items.csv">
+    <entry file="file://$USER_HOME$/Desktop/assignment2/itemlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -704,45 +704,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1464570886189" expanded="true" signature="39:861" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="111:150" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="178:457" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="516:583" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="624:735" placeholder="..." />
-            <marker date="1464570886189" expanded="true" signature="766:861" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/assignment2/app.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/assignment2/itemlist.py">
+    <entry file="file://$USER_HOME$/Desktop/assignment2/RohitChahalA1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="218">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.kv">
+    <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        <state relative-caret-position="410">
+          <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/assignment2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
           <folding>
             <element signature="e#214#238#0" expanded="true" />
           </folding>
@@ -751,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

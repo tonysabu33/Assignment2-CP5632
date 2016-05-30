@@ -53,6 +53,7 @@ class ItemHire(App):
         self.root.ids.statusLabel.text = "Choose action from the left Menu,then select item on the right"
 
     def press_entry(self, instance):
+        item = self.items.get_item(instance)
         if self.mode == LIST_MODE:
             name = instance.text
             self.status_text = name
@@ -72,12 +73,13 @@ class ItemHire(App):
         self.root.ids.popup.open()
 
     def press_save(self, added_name, added_description, added_price):
-        self.item_list.additem(added_name, added_description, float(added_price), "in")
+        self.items.add_item(added_name, added_description, str(added_price), "in")
 
         self.root.ids.entriesBox.cols = 2
 
         temp_button = Button(text=added_name)
         temp_button.bind(on_release=self.press_entry)
+        temp_button.background_color = (0, 1, 1, 1)
         self.root.ids.entriesBox.add_widget(temp_button)
 
         self.root.ids.popup.dismiss()
@@ -90,7 +92,7 @@ class ItemHire(App):
         save to csv file on closing of the main widget
         :return:
         """
-        save_list(self.item_list.create_list())
+        save_list(self.items.create_list())
 
     def press_hire(self):
         self.root.ids.statusLabel.text = "select available item to hire"
