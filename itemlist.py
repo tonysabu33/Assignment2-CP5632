@@ -1,7 +1,7 @@
 from item import Item
 
 
-class ItemList:
+class ItemList:     # class for list of items
     def __init__(self):     # initializing ItemList
         self.items = []
 

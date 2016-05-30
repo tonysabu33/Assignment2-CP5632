@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="211e162c-22c3-4e07-ace9-775fba97a0ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.kv" afterPath="$PROJECT_DIR$/app.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/item.py" afterPath="$PROJECT_DIR$/item.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itemlist.py" afterPath="$PROJECT_DIR$/itemlist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items.csv" afterPath="$PROJECT_DIR$/items.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="Assignment2-CP5632.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +33,7 @@
       <file leaf-file-name="TonySabuA1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
+            <state relative-caret-position="1079">
               <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
               <folding />
             </state>
@@ -55,8 +53,8 @@
       <file leaf-file-name="item.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,8 +63,8 @@
       <file leaf-file-name="itemlist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itemlist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +83,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
+            <state relative-caret-position="1360">
               <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding>
                 <element signature="e#97#121#0" expanded="true" />
@@ -114,9 +112,10 @@
         <option value="$USER_HOME$/Desktop/assignment2/main.py" />
         <option value="$USER_HOME$/Desktop/assignment2/app.kv" />
         <option value="$PROJECT_DIR$/app.kv" />
-        <option value="$PROJECT_DIR$/itemlist.py" />
         <option value="$PROJECT_DIR$/items.csv" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/item.py" />
+        <option value="$PROJECT_DIR$/itemlist.py" />
       </list>
     </option>
   </component>
@@ -484,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464574373019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final Commit with many changes to main.py and itemlist.py.&#10;Added the working save function to main.py.&#10;Only Small changes to app.kv&#10;Now the code is working good.">
+      <created>1464584469284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464584469284</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +532,8 @@
     <MESSAGE value="The code for Assignment2- GUI. &#10;I have made a repository when I started coding this. But I don't know it was not committing to the repository. So today, I created a new repository and copied my codes to this from my old one." />
     <MESSAGE value="Second commit with new functions in itemlist.py." />
     <MESSAGE value="Third Commit with corrected save function for adding new item to the list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Commit with corrected save function for adding new item to the list." />
+    <MESSAGE value="Final Commit with many changes to main.py and itemlist.py.&#10;Added the working save function to main.py.&#10;Only Small changes to app.kv&#10;Now the code is working good." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit with many changes to main.py and itemlist.py.&#10;Added the working save function to main.py.&#10;Only Small changes to app.kv&#10;Now the code is working good." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -677,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
+        <state relative-caret-position="1360">
           <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding>
             <element signature="e#97#121#0" expanded="true" />
@@ -693,22 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itemlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -717,10 +708,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TonySabuA1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
