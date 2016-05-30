@@ -21,7 +21,7 @@ class ItemHire(App):
         temp_item_list = load_items()
         self.items = ItemList()
         self.mode = LIST_MODE
-        self.items.create_items(temp_item_list)
+        self.items.generate_list(temp_item_list)
 
         self.pressed_items = []
 
@@ -37,12 +37,12 @@ class ItemHire(App):
             temp_button = Button(text=item.name)
             if item.status == "in":
                 temp_button.background_color = (0, 1, 1, 1)
-                temp_button.bind(on_release=self.press_entry)
+                temp_button.bind(on_press=self.press_entry)
                 self.root.ids.entriesBox.add_widget(temp_button)
 
             if item.status == "out":
                 temp_button.background_color = (1, 0, 1, 1)
-                temp_button.bind(on_release=self.press_entry)
+                temp_button.bind(on_press=self.press_entry)
                 self.root.ids.entriesBox.add_widget(temp_button)
 
     def press_button(self):
@@ -112,11 +112,7 @@ class ItemHire(App):
         self.root.ids.ListItem.state = "normal"
         self.root.ids.ReturnItem.state = "normal"
 
-        if self.mode == RETURN_MODE:fndjkfdfj dskjfd sk sdj ksd jds j
-        ds;jfdsfds f
-        jdskfds
-        sdjdskj s
-        ds ks
+        if self.mode == RETURN_MODE:
             for item in self.pressed_items:
                 if item.status == "out":
                     item.status = "in "
